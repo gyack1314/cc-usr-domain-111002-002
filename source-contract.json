@@ -1,0 +1,16 @@
+{
+  "phases": [
+    "base",
+    "empty-contract",
+    "failed-batch"
+  ],
+  "empty-contract": "合同详情没有批次，正常完成",
+  "failed-batch": "凭证显示失败且data-ready=error",
+  "frames": "主页面→合同iframe→批次iframe→开放Shadow DOM",
+  "visible_evidence": [
+    "data-owner-id",
+    "data-ready",
+    "data-receipt",
+    "data-digest"
+  ]
+}

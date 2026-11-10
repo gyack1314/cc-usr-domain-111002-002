@@ -1,0 +1,33 @@
+{
+  "contracts": [
+    {
+      "id": "CT-17",
+      "name": "北区服务"
+    },
+    {
+      "id": "CT-29",
+      "name": "南区服务"
+    }
+  ],
+  "batches": {
+    "CT-17": [
+      {
+        "id": "BT-11",
+        "receipt": "RC-shared",
+        "digest": "共享凭证"
+      },
+      {
+        "id": "BT-12",
+        "receipt": "RC-12",
+        "digest": "独立凭证"
+      }
+    ],
+    "CT-29": [
+      {
+        "id": "BT-21",
+        "receipt": "RC-shared",
+        "digest": "共享凭证"
+      }
+    ]
+  }
+}
