@@ -1,15 +1,10 @@
-.env
-*.key
-*.pem
-node_modules/
+# 本地 Python 环境与缓存
 .venv/
-venv/
-dist/
-build/
-coverage/
 __pycache__/
-*.py[cod]
-.DS_Store
-state/
-outputs/
-playwright-report/
+*.pyc
+
+# 本机离线 Chromium 及其依赖（按环境准备，不入库）
+.local-bin/
+
+# 采集运行产物（结果与截图按需另存）
+collected/

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "run_id": "base-run",
+  "contracts": [
+    {
+      "contract_id": "CT-29",
+      "name": "CT-29 南区服务",
+      "status": "complete",
+      "detail_frame_url": "/detail.html?id=CT-29",
+      "frame_locator": "page#detail",
+      "owner_id": "CT-29",
+      "ready": "true",
+      "number_text": "CT-29",
+      "download_controls": 1,
+      "batch_buttons": [
+        "BT-21"
+      ],
+      "empty": false,
+      "batches": [
+        {
+          "batch_id": "BT-21",
+          "contract_id": "CT-29",
+          "status": "ok",
+          "frame_url": "/batch.html?contract=CT-29&id=BT-21",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-21",
+          "ready": "true",
+          "panel_locator": "#batch receipt-panel >> shadow",
+          "section_locator": "receipt-panel section[data-owner-id=\"BT-21\"]",
+          "receipt_ref": "CT-29/BT-21/RC-shared",
+          "receipt_id": "RC-shared",
+          "digest": "共享凭证",
+          "number_text": "编号 BT-21",
+          "panel_text": null,
+          "download_controls": 1,
+          "screenshot": null,
+          "error": null,
+          "evidence": {
+            "owner_attribute": "BT-21",
+            "ready_attribute": "true",
+            "frame_src": "/batch.html?contract=CT-29&id=BT-21",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-21\"]",
+            "receipt_attribute": "RC-shared",
+            "digest_attribute": "共享凭证",
+            "shadow_download_controls": 1,
+            "document_download_controls": 1,
+            "section_number_text": "编号 BT-21",
+            "shadow_scope": "open"
+          },
+          "seen_at": "2026-11-10T05:59:24.028273+00:00"
+        }
+      ],
+      "screenshot": "/workspace/collected/base/screenshots/contract-CT-29.png",
+      "error": null,
+      "evidence": {
+        "owner_attribute": "CT-29",
+        "ready_attribute": "true",
+        "frame_src": "/detail.html?id=CT-29",
+        "scoped_selector": "#detail body[data-owner-id=\"CT-29\"]"
+      },
+      "seen_at": "2026-11-10T05:59:23.807683+00:00"
+    },
+    {
+      "contract_id": "CT-17",
+      "name": "CT-17 北区服务",
+      "status": "complete",
+      "detail_frame_url": "/detail.html?id=CT-17",
+      "frame_locator": "page#detail",
+      "owner_id": "CT-17",
+      "ready": "true",
+      "number_text": "CT-17",
+      "download_controls": 1,
+      "batch_buttons": [
+        "BT-11",
+        "BT-12"
+      ],
+      "empty": false,
+      "batches": [
+        {
+          "batch_id": "BT-11",
+          "contract_id": "CT-17",
+          "status": "ok",
+          "frame_url": "/batch.html?contract=CT-17&id=BT-11",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-11",
+          "ready": "true",
+          "panel_locator": "#batch receipt-panel >> shadow",
+          "section_locator": "receipt-panel section[data-owner-id=\"BT-11\"]",
+          "receipt_ref": "CT-17/BT-11/RC-shared",
+          "receipt_id": "RC-shared",
+          "digest": "共享凭证",
+          "number_text": "编号 BT-11",
+          "panel_text": null,
+          "download_controls": 1,
+          "screenshot": null,
+          "error": null,
+          "evidence": {
+            "owner_attribute": "BT-11",
+            "ready_attribute": "true",
+            "frame_src": "/batch.html?contract=CT-17&id=BT-11",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-11\"]",
+            "receipt_attribute": "RC-shared",
+            "digest_attribute": "共享凭证",
+            "shadow_download_controls": 1,
+            "document_download_controls": 1,
+            "section_number_text": "编号 BT-11",
+            "shadow_scope": "open"
+          },
+          "seen_at": "2026-11-10T05:59:24.067290+00:00"
+        },
+        {
+          "batch_id": "BT-12",
+          "contract_id": "CT-17",
+          "status": "ok",
+          "frame_url": "/batch.html?contract=CT-17&id=BT-12",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-12",
+          "ready": "true",
+          "panel_locator": "#batch receipt-panel >> shadow",
+          "section_locator": "receipt-panel section[data-owner-id=\"BT-12\"]",
+          "receipt_ref": "CT-17/BT-12/RC-12",
+          "receipt_id": "RC-12",
+          "digest": "独立凭证",
+          "number_text": "编号 BT-12",
+          "panel_text": null,
+          "download_controls": 1,
+          "screenshot": null,
+          "error": null,
+          "evidence": {
+            "owner_attribute": "BT-12",
+            "ready_attribute": "true",
+            "frame_src": "/batch.html?contract=CT-17&id=BT-12",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-12\"]",
+            "receipt_attribute": "RC-12",
+            "digest_attribute": "独立凭证",
+            "shadow_download_controls": 1,
+            "document_download_controls": 1,
+            "section_number_text": "编号 BT-12",
+            "shadow_scope": "open"
+          },
+          "seen_at": "2026-11-10T05:59:24.417286+00:00"
+        }
+      ],
+      "screenshot": "/workspace/collected/base/screenshots/contract-CT-17.png",
+      "error": null,
+      "evidence": {
+        "owner_attribute": "CT-17",
+        "ready_attribute": "true",
+        "frame_src": "/detail.html?id=CT-17",
+        "scoped_selector": "#detail body[data-owner-id=\"CT-17\"]"
+      },
+      "seen_at": "2026-11-10T05:59:23.868227+00:00"
+    }
+  ],
+  "receipt_refs": [
+    {
+      "contract_id": "CT-29",
+      "batch_id": "BT-21",
+      "receipt_id": "RC-shared",
+      "digest": "共享凭证",
+      "frame_url": "/batch.html?contract=CT-29&id=BT-21",
+      "receipt_ref": "CT-29/BT-21/RC-shared",
+      "evidence": {
+        "owner_attribute": "BT-21",
+        "ready_attribute": "true",
+        "frame_src": "/batch.html?contract=CT-29&id=BT-21",
+        "scoped_selector": "#batch body[data-owner-id=\"BT-21\"]",
+        "receipt_attribute": "RC-shared",
+        "digest_attribute": "共享凭证",
+        "shadow_download_controls": 1,
+        "document_download_controls": 1,
+        "section_number_text": "编号 BT-21",
+        "shadow_scope": "open"
+      },
+      "seen_at": "2026-11-10T05:59:24.028273+00:00"
+    },
+    {
+      "contract_id": "CT-17",
+      "batch_id": "BT-11",
+      "receipt_id": "RC-shared",
+      "digest": "共享凭证",
+      "frame_url": "/batch.html?contract=CT-17&id=BT-11",
+      "receipt_ref": "CT-17/BT-11/RC-shared",
+      "evidence": {
+        "owner_attribute": "BT-11",
+        "ready_attribute": "true",
+        "frame_src": "/batch.html?contract=CT-17&id=BT-11",
+        "scoped_selector": "#batch body[data-owner-id=\"BT-11\"]",
+        "receipt_attribute": "RC-shared",
+        "digest_attribute": "共享凭证",
+        "shadow_download_controls": 1,
+        "document_download_controls": 1,
+        "section_number_text": "编号 BT-11",
+        "shadow_scope": "open"
+      },
+      "seen_at": "2026-11-10T05:59:24.067290+00:00"
+    },
+    {
+      "contract_id": "CT-17",
+      "batch_id": "BT-12",
+      "receipt_id": "RC-12",
+      "digest": "独立凭证",
+      "frame_url": "/batch.html?contract=CT-17&id=BT-12",
+      "receipt_ref": "CT-17/BT-12/RC-12",
+      "evidence": {
+        "owner_attribute": "BT-12",
+        "ready_attribute": "true",
+        "frame_src": "/batch.html?contract=CT-17&id=BT-12",
+        "scoped_selector": "#batch body[data-owner-id=\"BT-12\"]",
+        "receipt_attribute": "RC-12",
+        "digest_attribute": "独立凭证",
+        "shadow_download_controls": 1,
+        "document_download_controls": 1,
+        "section_number_text": "编号 BT-12",
+        "shadow_scope": "open"
+      },
+      "seen_at": "2026-11-10T05:59:24.417286+00:00"
+    }
+  ],
+  "receipts": {
+    "RC-shared": {
+      "variants": {
+        "共享凭证": {
+          "digest": "共享凭证",
+          "text": "编号 BT-21 | 共享凭证",
+          "frame_url": "/batch.html?contract=CT-29&id=BT-21",
+          "receipt_ref": "CT-29/BT-21/RC-shared",
+          "evidence": {
+            "owner_attribute": "BT-21",
+            "ready_attribute": "true",
+            "frame_src": "/batch.html?contract=CT-29&id=BT-21",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-21\"]",
+            "receipt_attribute": "RC-shared",
+            "digest_attribute": "共享凭证",
+            "shadow_download_controls": 1,
+            "document_download_controls": 1,
+            "section_number_text": "编号 BT-21",
+            "shadow_scope": "open"
+          },
+          "seen_at": "2026-11-10T05:59:24.028273+00:00"
+        }
+      }
+    },
+    "RC-12": {
+      "variants": {
+        "独立凭证": {
+          "digest": "独立凭证",
+          "text": "编号 BT-12 | 独立凭证",
+          "frame_url": "/batch.html?contract=CT-17&id=BT-12",
+          "receipt_ref": "CT-17/BT-12/RC-12",
+          "evidence": {
+            "owner_attribute": "BT-12",
+            "ready_attribute": "true",
+            "frame_src": "/batch.html?contract=CT-17&id=BT-12",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-12\"]",
+            "receipt_attribute": "RC-12",
+            "digest_attribute": "独立凭证",
+            "shadow_download_controls": 1,
+            "document_download_controls": 1,
+            "section_number_text": "编号 BT-12",
+            "shadow_scope": "open"
+          },
+          "seen_at": "2026-11-10T05:59:24.417286+00:00"
+        }
+      }
+    }
+  }
+}

@@ -18,6 +18,14 @@ def make_server(host="127.0.0.1", port=0):
         def log_message(self, *_args):
             pass
 
+        def handle_one_request(self):
+            try:
+                super().handle_one_request()
+            except (BrokenPipeError, ConnectionResetError):
+                # 浏览器侧在响应发送中断开（例如详情页被关闭）属正常现象，
+                # 不应让服务器线程异常冒泡影响接入程序。
+                self.close_connection = True
+
         def send(self, status, data, mime="application/json; charset=utf-8"):
             if not isinstance(data, bytes):
                 data = json.dumps(data, ensure_ascii=False).encode()

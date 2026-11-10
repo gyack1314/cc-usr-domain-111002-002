@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "run_id": "failed-run",
+  "contracts": [
+    {
+      "contract_id": "CT-17",
+      "name": "CT-17 北区服务",
+      "status": "complete",
+      "detail_frame_url": "/detail.html?id=CT-17",
+      "frame_locator": "page#detail",
+      "owner_id": "CT-17",
+      "ready": "true",
+      "number_text": "CT-17",
+      "download_controls": 1,
+      "batch_buttons": [
+        "BT-11",
+        "BT-12"
+      ],
+      "empty": false,
+      "batches": [
+        {
+          "batch_id": "BT-11",
+          "contract_id": "CT-17",
+          "status": "error",
+          "frame_url": "/batch.html?contract=CT-17&id=BT-11",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-11",
+          "ready": "error",
+          "panel_locator": "#batch receipt-panel",
+          "section_locator": null,
+          "receipt_ref": null,
+          "receipt_id": null,
+          "digest": null,
+          "number_text": null,
+          "panel_text": "凭证加载失败",
+          "download_controls": null,
+          "screenshot": "/workspace/collected/failed/screenshots/batch-BT-11-error.png",
+          "error": "批次凭证加载失败（data-ready=error）",
+          "evidence": {
+            "owner_attribute": "BT-11",
+            "ready_attribute": "error",
+            "frame_src": "/batch.html?contract=CT-17&id=BT-11",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-11\"]"
+          },
+          "seen_at": "2026-11-10T05:59:56.723181+00:00"
+        },
+        {
+          "batch_id": "BT-12",
+          "contract_id": "CT-17",
+          "status": "error",
+          "frame_url": "/batch.html?contract=CT-17&id=BT-12",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-12",
+          "ready": "error",
+          "panel_locator": "#batch receipt-panel",
+          "section_locator": null,
+          "receipt_ref": null,
+          "receipt_id": null,
+          "digest": null,
+          "number_text": null,
+          "panel_text": "凭证加载失败",
+          "download_controls": null,
+          "screenshot": "/workspace/collected/failed/screenshots/batch-BT-12-error.png",
+          "error": "批次凭证加载失败（data-ready=error）",
+          "evidence": {
+            "owner_attribute": "BT-12",
+            "ready_attribute": "error",
+            "frame_src": "/batch.html?contract=CT-17&id=BT-12",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-12\"]"
+          },
+          "seen_at": "2026-11-10T05:59:56.957263+00:00"
+        }
+      ],
+      "screenshot": "/workspace/collected/failed/screenshots/contract-CT-17.png",
+      "error": null,
+      "evidence": {
+        "owner_attribute": "CT-17",
+        "ready_attribute": "true",
+        "frame_src": "/detail.html?id=CT-17",
+        "scoped_selector": "#detail body[data-owner-id=\"CT-17\"]"
+      },
+      "seen_at": "2026-11-10T05:59:56.550823+00:00"
+    },
+    {
+      "contract_id": "CT-29",
+      "name": "CT-29 南区服务",
+      "status": "complete",
+      "detail_frame_url": "/detail.html?id=CT-29",
+      "frame_locator": "page#detail",
+      "owner_id": "CT-29",
+      "ready": "true",
+      "number_text": "CT-29",
+      "download_controls": 1,
+      "batch_buttons": [
+        "BT-21"
+      ],
+      "empty": false,
+      "batches": [
+        {
+          "batch_id": "BT-21",
+          "contract_id": "CT-29",
+          "status": "error",
+          "frame_url": "/batch.html?contract=CT-29&id=BT-21",
+          "frame_locator": "page#detail #batch",
+          "owner_id": "BT-21",
+          "ready": "error",
+          "panel_locator": "#batch receipt-panel",
+          "section_locator": null,
+          "receipt_ref": null,
+          "receipt_id": null,
+          "digest": null,
+          "number_text": null,
+          "panel_text": "凭证加载失败",
+          "download_controls": null,
+          "screenshot": "/workspace/collected/failed/screenshots/batch-BT-21-error.png",
+          "error": "批次凭证加载失败（data-ready=error）",
+          "evidence": {
+            "owner_attribute": "BT-21",
+            "ready_attribute": "error",
+            "frame_src": "/batch.html?contract=CT-29&id=BT-21",
+            "scoped_selector": "#batch body[data-owner-id=\"BT-21\"]"
+          },
+          "seen_at": "2026-11-10T05:59:57.729058+00:00"
+        }
+      ],
+      "screenshot": "/workspace/collected/failed/screenshots/contract-CT-29.png",
+      "error": null,
+      "evidence": {
+        "owner_attribute": "CT-29",
+        "ready_attribute": "true",
+        "frame_src": "/detail.html?id=CT-29",
+        "scoped_selector": "#detail body[data-owner-id=\"CT-29\"]"
+      },
+      "seen_at": "2026-11-10T05:59:57.582639+00:00"
+    }
+  ],
+  "receipt_refs": [],
+  "receipts": {}
+}
